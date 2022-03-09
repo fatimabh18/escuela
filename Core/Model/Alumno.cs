@@ -1,4 +1,4 @@
-public class Alumnos
+public class Alumno
 {
 
 }
