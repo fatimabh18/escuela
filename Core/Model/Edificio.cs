@@ -1,8 +1,5 @@
-﻿using System;
-
-public class Class1
+﻿public class Edificio
 {
-	public Class1()
-	{
-	}
+    public int id { get; set; }
+    public string nombre { get; set; }
 }
