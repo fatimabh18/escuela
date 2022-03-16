@@ -1,8 +1,18 @@
 ﻿using System;
 
-public class Class1
+public class AlumnosActions
 {
-	public Class1()
+	public void Crear()
 	{
 	}
+	public void Editar()
+	{
+	}
+	public void Borrar()
+	{
+	}
+	public void Listar()
+	{
+	}
+
 }
