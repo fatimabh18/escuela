@@ -1,4 +1,4 @@
-enum DiaSemana 
+public enum DiaSemana 
 {
     Lunes, 
     Martes,
