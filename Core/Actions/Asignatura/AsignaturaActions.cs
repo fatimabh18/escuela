@@ -9,10 +9,12 @@ public class AsignaturaActions
 
     public CrearAsignaturaDTO Crear(CrearAsignaturaViewModel asignatura)
     {
-        CrearAsingaturaDTO resultado = new CrearAsignaturaDTO();
-        //añadir elementos a la lista
-        Asignaturas.Add(new Asignatura() { Nombre = asignatura.Nombre });
-        return resultado;
+        int id = Asignaturas.Count + 1;
+        var asignatura = new Asignatura(id, asignatura.Nombre)
+
+        CrearAsingaturaDTO AsignaturaDTO = new CrearAsignaturaDTO(asignatura.id, asignatura.Nombre);
+        Asignaturas.Add(asignatura);
+        return AsignaturaDTO;
     }
     public void Editar()
     {
