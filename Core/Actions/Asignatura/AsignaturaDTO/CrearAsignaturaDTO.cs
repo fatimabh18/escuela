@@ -1,4 +1,4 @@
-public class AlumnoDTO
+﻿public class CrearAsignaturaDTO
 {
     public int id { get; set; }
 

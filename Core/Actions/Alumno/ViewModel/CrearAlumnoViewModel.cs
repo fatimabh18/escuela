@@ -1,4 +1,4 @@
-﻿public class AsignaturaViewModel
+﻿public class CrearAlumnoViewModel
 {
     public string Nombre { get; set; }
 }
