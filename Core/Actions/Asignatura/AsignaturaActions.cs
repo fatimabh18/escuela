@@ -10,7 +10,7 @@ public class AsignaturaActions
     public CrearAsignaturaDTO Crear(CrearAsignaturaViewModel asignatura)
     {
         CrearAsingaturaDTO resultado = new CrearAsignaturaDTO();
-        //añadir elementos a la lista
+        //aï¿½adir elementos a la lista
         Asignaturas.Add(new Asignatura() { Nombre = asignatura.Nombre });
         return resultado;
     }
