@@ -1,8 +1,8 @@
 using Xunit;
 
-namespace EscuelaTestUnitarios
+namespace AlumnosTestUnitarios
 {
-    public class TestUnitarioEscuela
+    public class UnitTest1
     {
         [Fact]
         public void Test1()
